@@ -48,7 +48,7 @@ export default function BasicSparkLineCustomization() {
       <Stack direction="row" sx={{ width: '100%' }}>
         <Box sx={{ flexGrow: 1 }}>
           <SparkLineChart
-            data={[1, 4, 2, 5, 7, 2, 4, 6]}
+            data={[1, 4, 2, 5, 7, 2, 4, 6,10]}
             height={100}
             showHighlight={showHighlight}
             showTooltip={showTooltip}
@@ -57,7 +57,7 @@ export default function BasicSparkLineCustomization() {
         <Box sx={{ flexGrow: 1 }}>
           <SparkLineChart
             plotType="bar"
-            data={[1, 4, 2, 5, 7, 2, 4, 6]}
+            data={[1, 4, 2, 5, 7, 2, 4, 6,10]}
             height={100}
             showHighlight={showHighlight}
             showTooltip={showTooltip}
